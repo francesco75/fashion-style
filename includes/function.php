@@ -273,7 +273,7 @@ paid_amount_currency,txn_id,payment_status,created,modified) VALUES
         $last_insert_id = $connection->insert_id;
               
         //if order inserted successfully
-        if($last_insert_id && $status == 'succeeded'){
+        if($status == 'succeeded'){
             $user=$_SESSION['user_id'];
             $query2="DELETE  FROM orders WHERE order_userid=$user ";
                                $delete_all_query=mysqli_query($connection,$query2);
@@ -304,5 +304,5 @@ echo $statusMsg;
 
 
     }
-    
+
                                
