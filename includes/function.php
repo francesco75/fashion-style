@@ -115,7 +115,7 @@ function register_user($username, $email, $password){
              $_SESSION['user_id'] =$db_user_id;
              
              if(!$model){
-                redirect("/shop_online/index");
+                redirect("index");
              }
              else{
                   $model=false;
