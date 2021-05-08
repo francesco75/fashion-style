@@ -1,0 +1,42 @@
+23/03/2021
+- Product  
+    - Change the display body with Info Product Done
+    - Resposive image product -Done
+- Order.php
+     Change the button chechout with animation - Done
+     Create the delete button  to delete all orders for user -Done
+
+- Check the grid again for each page  - Done
+
+24/03/2021
+- Check the final grid for each page - Done
+- Product.php
+           -Fix the logout direct the same page. - Done
+
+_ Create the button select the price min and max in the page 
+        -pants.php - Done
+         bags.php  - Done 
+         skirt.php - Done
+- Product.php
+       - Add Review rate  - Done 
+21/04/2021       
+- Order.php
+   Create Pie Chart Order and  Refund   - Done
+   Create the table all Payments with Refund Status and Succeeed - Done
+
+- 28/04/2021
+     - Fix the footer with more rows and box-social with links - Done      
+     - Insert Htaccess -Done
+-04/05/2021
+     - Fix the Box Social between 684 pixel and 734 pixel iphone and android landscape -Done 
+     - Fix all the pages with Animation for Iphone and Andorid between 684 pixel and 734 pixel iphone and android landscape -Done
+     - Chech the chart reviews responsive - Done
+     - Order.php check the responsive the tables.
+     - Last_order.php che the responsive tables and chart.
+ -06/05/2021
+       - Deployment with Heroku
+       _ Deployment with GitHub
+       - Create the Readme.MD
+       _ Deployment with Readme.MD
+       _ Check the responsive all the pages    
+            

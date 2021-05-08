@@ -1,0 +1,51 @@
+/*Css Panel*/
+
+.panel-body{
+	font: 12px futura-pt;
+	color:#000;
+    /*line-height: 1.6;*/
+}
+.panel-body p{
+	line-height: 1.8;
+}
+.item2 .fa {
+       font-size: 15px;
+       width: 15px;
+}
+
+
+/*Style for only  screnn min 600px */
+@media   (max-width: 600px ) {
+    
+    .item1{
+                 padding-left: 100px;
+    }
+   .panel-body p{
+	               line-height: 2;
+}
+    .item_img{
+                padding-left: 100px;
+}
+         #top_x_div{
+
+                  margin-bottom:10px;
+                  
+  }
+ 
+  .item2{
+           padding-left: 100px;
+  }
+}
+  #top_x_div{
+                
+
+               border-top:  1px solid black;
+               border-bottom:1px solid black;
+               padding-top: 5px; 
+               
+
+  }
+  
+  .checked {
+  color: orange;
+}

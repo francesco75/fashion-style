@@ -1,0 +1,7 @@
+RewriteEngine on
+
+RewriteRule ^(index|pants|shirt_men|Jacket_men|women_pant|women_shirt|women_Jacket|skirts|registration)$ $1.php [NC,L]
+
+RewriteRule ^(men_glass|hat_men|women_glass|women_hat|bags|login|includes/logout)$ $1.php [NC,L]
+
+
