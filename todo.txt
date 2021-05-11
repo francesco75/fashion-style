@@ -34,7 +34,8 @@ _ Create the button select the price min and max in the page
      - Order.php check the responsive the tables.
      - Last_order.php che the responsive tables and chart.
  -06/05/2021
-       - Deployment with Heroku
+       - Deployment with Heroku - Done
+       - Check the reviews
        _ Deployment with GitHub
        - Create the Readme.MD
        _ Deployment with Readme.MD

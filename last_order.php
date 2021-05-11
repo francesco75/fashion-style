@@ -33,7 +33,7 @@
                                         }
                   ?>
                     <div class="table-responsive">  
-                      <table>
+                      <table class="table">
                         <thead>
           			    <tr>
           				<th>Name</th>
@@ -137,7 +137,7 @@
                 <?php if($num_order>0 || $tot_refund>0):?>
                 <h2>All Payments</h2><br>
                 <div class="table-responsive">  
-                      <table>
+                      <table class="table">
                         <thead>
                     <tr>
                   <th>Name</th>
