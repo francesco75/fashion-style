@@ -192,7 +192,7 @@
 </div>
 
 <br>
-<script>
+
 
 
 <?php include 'includes/footer_index.php'?>
