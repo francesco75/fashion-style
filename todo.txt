@@ -31,11 +31,11 @@ _ Create the button select the price min and max in the page
      - Fix the Box Social between 684 pixel and 734 pixel iphone and android landscape -Done 
      - Fix all the pages with Animation for Iphone and Andorid between 684 pixel and 734 pixel iphone and android landscape -Done
      - Chech the chart reviews responsive - Done
-     - Order.php check the responsive the tables.
-     - Last_order.php che the responsive tables and chart.
+     - Order.php check the responsive the tables.- Done
+     - Last_order.php che the responsive tables and chart.-Done
  -06/05/2021
        - Deployment with Heroku - Done
-       - Check the reviews
+       - Check the reviews with heroku
        _ Deployment with GitHub
        - Create the Readme.MD
        _ Deployment with Readme.MD

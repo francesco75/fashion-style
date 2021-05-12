@@ -70,7 +70,7 @@
 
           <li><a href="./includes/logout"><?php echo $_SESSION['username']." ";?><span class="glyphicon glyphicon-user"></span> Logout</a></li>
 
-          <li><a href="./order.php"><span class="glyphicon glyphicon-shopping-cart"></span> Cart
+          <li><a href="./order"><span class="glyphicon glyphicon-shopping-cart"></span> Cart
           <?php
          $user= $_SESSION['user_id']; 
          $u_query= "SELECT order_userid FROM orders WHERE order_userid=$user";
@@ -82,7 +82,7 @@
 
         ?>
         </a></li>
-        <li><a href="./last_order.php">Your Orders</a></li>
+        <li><a href="./last_order">Your Orders</a></li>
         <?php endif;?>  
         
         

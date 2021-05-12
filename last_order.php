@@ -126,9 +126,12 @@
         var chart = new google.visualization.PieChart(document.getElementById('donutchart'));
         chart.draw(data, options);
       }
+      $(window).resize(function(){
+              drawChart();
+        });
     </script>
-             <div id="donutchart" style="width: 500px; height: 500px;"></div>
-
+             <!-- <div id="donutchart" style="width: 500px; height: 500px;"></div> -->
+                    <div id="donutchart" style="width: 100%; min-height: 450px;"></div>
                  </div> 
             </div>
 

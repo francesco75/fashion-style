@@ -41,7 +41,7 @@
 
                                       $update_order=mysqli_query($connection,$query);   
                                       confirmQuery($update_order);  
-                                      header("Location:order.php");
+                                      header("Location:order");
 
 
 

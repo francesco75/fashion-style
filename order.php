@@ -35,7 +35,7 @@
                                 die('Query Failed'. mysqli_error($connection));
                               }
                               else{
-                                    header("Location:order.php"); 
+                                    header("Location:order"); 
                               }
                               $query="UPDATE users SET user_total= user_total + $price " ;
                               $query.="WHERE user_id=$user ";
@@ -53,7 +53,7 @@
                   }  	  
                  elseif (!$num_order==0){?>
                     <div class="table-responsive">  
-                      <table>
+                      <table class="table">
                         <thead>
           			    <tr>
           				<th>Name</th>
@@ -129,7 +129,7 @@
                                $query3="UPDATE users SET user_total= 0 " ;
                                $query3.="WHERE user_id=$user ";
                                $total1_count=mysqli_query($connection,$query3);
-                               header("Location: order.php");
+                               header("Location: order");
 
                  }
                 ?>
@@ -149,7 +149,7 @@
                                $query="UPDATE users SET user_total= user_total - $price1 " ;
                               $query.="WHERE user_id=$user ";
                               $total_count=mysqli_query($connection,$query);
-                               header("Location: order.php");
+                               header("Location: order");
                             }
 
 
