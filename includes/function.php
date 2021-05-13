@@ -161,6 +161,7 @@ function update_totReviews($model,$id,$the_id,$rev_rate){
                                $query="UPDATE $model  SET  tot1= tot1 + 1 " ;
                                $query.="WHERE  $id={$the_id} ";
                                $tot1_value=mysqli_query($connection,$query);
+                               
                                break;    
                              case 2:
                                 $query="UPDATE $model  SET  tot2= tot2 + 2 " ;
