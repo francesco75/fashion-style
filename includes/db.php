@@ -9,12 +9,6 @@ $cleardb_db = substr($cleardb_url["path"],1);
 $active_group = 'default';
 $query_builder = TRUE;
 // Connect to DB
-
-foreach ($cleardb_db as $key => $value) {
-	define(strtoupper($key),$value);
-}
-
-
 $connection = mysqli_connect($cleardb_server, $cleardb_username, $cleardb_password, $cleardb_db);
 
 
