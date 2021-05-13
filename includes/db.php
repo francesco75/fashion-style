@@ -10,7 +10,7 @@ $active_group = 'default';
 $query_builder = TRUE;
 // Connect to DB
 
-foreach ($cleardb as $key => $value) {
+foreach ($cleardb_db as $key => $value) {
 	define(strtoupper($key),$value);
 }
 
