@@ -73,7 +73,7 @@
                           
                              
                             /* -- VALUES Reviews Tot Charts --*/
-                              $type='pant';
+                            
                             if ($type=='pant'){
 
                                  update_totReviews(pants,id,$the_id,$rev_rate);
