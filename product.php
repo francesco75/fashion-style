@@ -70,41 +70,7 @@
                               }
 
                          
-                          function update_totReviews($model,$id,$the_id,$rev_rate){
-  global $connection;
-                   switch ($rev_rate) {  
-
-                             case 1:  
-                               $query="UPDATE $model  SET  tot1= tot1 + 1 " ;
-                               $query.="WHERE  $id={$the_id} ";
-                               $tot1_value=mysqli_query($connection,$query);
-                               
-                               break;    
-                             case 2:
-                                $query="UPDATE $model  SET  tot2= tot2 + 2 " ;
-                               $query.="WHERE  $id={$the_id} ";
-                               $tot2_value=mysqli_query($connection,$query);
-                               
-                               break;
-                               case 3:  
-                               $query="UPDATE $model  SET  tot3= tot3 + 3 " ;
-                               $query.="WHERE  $id={$the_id} ";
-                               $tot3_value=mysqli_query($connection,$query);
-                               break;    
-                             case 4:
-                                $query="UPDATE $model  SET  tot4= tot4 + 4 " ;
-                               $query.="WHERE  $id={$the_id} ";
-                               $tot4_value=mysqli_query($connection,$query);
-                               break;
-                             case 5:
-                               $query="UPDATE $model  SET  tot5= tot5 + 5 " ;
-                               $query.="WHERE  $id={$the_id} ";
-                               $tot5_value=mysqli_query($connection,$query);
-                               break;
-                               default:
-                               break;
-                                     }
-}
+                          
                              
                             /* -- VALUES Reviews Tot Charts --*/
                             
