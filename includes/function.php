@@ -153,7 +153,7 @@ function register_user($username, $email, $password){
  }
 
                     /*-- UPDATE Total Reviews --*/ 
-function update_totReviews($model,$id,$the_id,$rev_rate){
+function update_totReview($model,$id,$the_id,$rev_rate){
   global $connection;
                    switch ($rev_rate) {  
 
