@@ -187,7 +187,7 @@ function update_totReviews($model,$id,$the_id,$rev_rate){
                                default:
                                break;
                                      }
-}
+                    }
 // Payment Stripe 
 function pay_stripe($tot){
   global $connection;

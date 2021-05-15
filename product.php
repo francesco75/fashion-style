@@ -75,7 +75,9 @@
                             /* -- VALUES Reviews Tot Charts --*/
                             
                             if ($type=='pant'){
-                                 update_totReviews(pants,id,$the_id,$rev_rate);
+                                 $model='pants';
+                                 $id='id';
+                                 update_totReviews($model,$id,$the_id,$rev_rate);
                                  header("Location:product.php?p_id={$the_id}"); 
                                    }
 
