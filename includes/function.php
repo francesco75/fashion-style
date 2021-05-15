@@ -271,7 +271,7 @@ paid_amount_currency,txn_id,payment_status,created,modified) VALUES
 ,'".$status."',now(),now()  )";
         
         $insert = $connection->query($sql);
-        $last_insert_id = $connection->insert_id;
+        //$last_insert_id = $connection->insert_id;
               
         //if order inserted successfully
         if($status == 'succeeded'){
