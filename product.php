@@ -50,14 +50,11 @@
    <!-- Reviews Comments -->
    <?php 
                     
-                   if(isset($_POST['create_review'])){
-                         
+                   if(isset($_POST['create_review'])){                         
                          $rev_name=$_POST['rev_name'];
                          $rev_content=$_POST['rev_content'];
                          $rev_rate=$_POST['rev_rate'];
                          
-                         
-                                                    
                          if (!empty($rev_name)&& !empty($rev_content) && !empty($rev_rate) ){
 
                                $query="INSERT INTO reviews (rev_name,rev_id_product,rev_rate,rev_type,rev_content,rev_date) ";
@@ -68,10 +65,7 @@
                               if (!$create_review_query){
                                 die('Query Failed'. mysqli_error($connection));
                               }
-
-                         
-                          
-                             
+    
                             /* -- VALUES Reviews Tot Charts --*/
                             
                             if ($type=='pant'){
@@ -82,30 +76,42 @@
                                    }
 
                               if ($type=='skirt'){
-                                update_totReviews(skirt,id,$the_id,$rev_rate);
+                                $model='skirt';
+                                 $id='id';
+                                update_totReviews($model,$id,$the_id,$rev_rate);
                                 header("Location:product.php?skirt={$the_id}");
                                    }
                              if ($type=='bags'){
-                                    update_totReviews(bags,bag_id,$the_id,$rev_rate);
+                                    $model='bags';
+                                    $id='bag_id';
+                                    update_totReviews($model,$id,$the_id,$rev_rate);
                                     header("Location:product.php?bags={$the_id}");
                                    }      
 
                                if ($type=='shirt'){
-                                      update_totReviews(shirts,shirt_id,$the_id,$rev_rate);
+                                      $model='shirts';
+                                      $id='shirt_id'; 
+                                      update_totReviews($model,$id,$the_id,$rev_rate);
                                       header("Location:product.php?shirt={$the_id}");
                                    } 
 
                                if ($type=='jacket'){
-                                        update_totReviews(jackets,jacket_id,$the_id,$rev_rate);
+                                        $model='jackets';
+                                        $id='jacket_id';
+                                        update_totReviews($model,$id,$the_id,$rev_rate);
                                         header("Location:product.php?jacket={$the_id}");
                                    }
 
                                if ($type=='glass'){
-                                        update_totReviews(glasses,glass_id,$the_id,$rev_rate);
+                                        $model='glasses';
+                                        $id='glass_id';
+                                        update_totReviews($model,$id,$the_id,$rev_rate);
                                         header("Location:product.php?glass={$the_id}");
                                    }   
                              if ($type=='hat'){
-                                   update_totReviews(hats,hat_id,$the_id,$rev_rate);
+                                   $model='hats';
+                                   $id='hat_id'; 
+                                   update_totReviews($model,$id,$the_id,$rev_rate);
                                    header("Location:product.php?hat={$the_id}");
 
                                    }
