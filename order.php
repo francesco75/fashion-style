@@ -119,7 +119,7 @@
               </tfoot>
               </tbody>
                 </table>
-                
+
                 <?php
                                /*-- Delete All the items --*/
                     if (isset($_GET['del_all'])){
@@ -155,7 +155,7 @@
 
 
                              ?>
-              </div>
+              
                  <?php
                             }
                  else{
