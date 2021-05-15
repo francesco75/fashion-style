@@ -53,7 +53,7 @@
                   }  	  
                  elseif (!$num_order==0){?>
                     <div class="table-responsive">  
-                      <table class="table">
+                      <table >
                         <thead>
           			    <tr>
           				<th>Name</th>
