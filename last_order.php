@@ -62,7 +62,7 @@
               </tfoot>
               </tbody>
                 </table>
-              </div>
+              
                 <?php
                              /*-- Refund One Order selected with the button --*/
                              
