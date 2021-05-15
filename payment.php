@@ -1,4 +1,15 @@
 <?php include 'includes/header_index.php'?>
+<style>
+    @media only screen and (min-width: 1024px) and (max-height: 1366px)
+    and (-webkit-min-device-pixel-ratio: 1.5) and (hover: none) {
+          .class1{
+                   font-size: 18px;
+          }
+}
+
+
+
+</style>
 <body>
 <?php include 'includes/jumbotron.php'?>  
            
@@ -30,7 +41,7 @@
      	<div class="col-sm-4"></div>
      	<div class="col-sm-4">
      		<div class="well">
-     		<h1>Charge £ <?php echo $tot;?> </h1>
+     		<h1 class="class1">Charge £ <?php echo $tot;?> </h1>
 <!-- display errors returned by createToken -->
 <span class="payment-errors"></span>
 <!-- stripe payment form -->
