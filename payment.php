@@ -37,11 +37,11 @@
 <form action="" method="POST" id="paymentFrm">    
     	<div class="form-group">
         <label>Name</label>
-        <input type="text" name="name" placeholder="Insert Username" size="30" />
+        <input type="text" name="name" placeholder="Insert Username" size="20" />
         </div>
         <div class="form-group">
         <label>Email</label>
-        <input type="email" name="email" placeholder="Insert Email" size="30" />
+        <input type="email" name="email" placeholder="Insert Email" size="20" />
         </div>
         <div class="form-group">
         <label>Card Number</label>
