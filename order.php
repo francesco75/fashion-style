@@ -52,7 +52,7 @@
                     	echo "Login First ";
                   }  	  
                  elseif (!$num_order==0){?>
-                      
+                    <div class="table-responsive">  
                       <table>
                         <thead>
           			    <tr>
@@ -155,7 +155,7 @@
 
 
                              ?>
-              
+              </div>
                  <?php
                             }
                  else{
