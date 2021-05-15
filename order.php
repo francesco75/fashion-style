@@ -52,7 +52,7 @@
                     	echo "Login First ";
                   }  	  
                  elseif (!$num_order==0){?>
-                    <div class="table-responsive">  
+                      
                       <table>
                         <thead>
           			    <tr>
@@ -119,7 +119,7 @@
               </tfoot>
               </tbody>
                 </table>
-              </div>
+                
                 <?php
                                /*-- Delete All the items --*/
                     if (isset($_GET['del_all'])){
