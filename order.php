@@ -53,7 +53,7 @@
                   }  	  
                  elseif (!$num_order==0){?>
                     <div class="table-responsive">  
-                      <table >
+                      <table>
                         <thead>
           			    <tr>
           				<th>Name</th>
@@ -119,6 +119,7 @@
               </tfoot>
               </tbody>
                 </table>
+              </div>
                 <?php
                                /*-- Delete All the items --*/
                     if (isset($_GET['del_all'])){
