@@ -7,7 +7,8 @@
     <?php include 'includes/navigation.php'?>
   
 <div class="container">
-  
+ <div class="container-fluid full-width">
+ 
 <div class="row">
   <div class="col-sm-12">
       <h2 class="parTitle">Men Offers</h2>
@@ -134,7 +135,7 @@ echo "<br>";
   }  
 echo "</div>";
 echo "</div>";
-
+echo "</div>";
 echo "<br>";
 echo "<br>";
 
