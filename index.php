@@ -6,7 +6,7 @@
             <!-- Navigation -->
     <?php include 'includes/navigation.php'?>
   
-<div class="container container-fluid">
+<div class="container">
   
 <div class="row">
   <div class="col-sm-12 ">
