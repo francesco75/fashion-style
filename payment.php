@@ -1,15 +1,5 @@
 <?php include 'includes/header_index.php'?>
-<style>
-    @media only screen and (min-width: 768px) and (max-height: 1112px)
-    and (-webkit-min-device-pixel-ratio: 1.5) and (hover: none) {
-          .class1{
-                   font-size: 30px;
-          }
-}
 
-
-
-</style>
 <body>
 <?php include 'includes/jumbotron.php'?>  
            
