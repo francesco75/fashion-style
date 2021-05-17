@@ -5,7 +5,7 @@
   <?php include 'includes/carousel.php'?>
             <!-- Navigation -->
     <?php include 'includes/navigation.php'?>
- <div class="container-fluid full-width"> 
+  
 <div class="container">
  
  
@@ -135,7 +135,7 @@ echo "<br>";
   }  
 echo "</div>";
 echo "</div>";
-echo "</div>";
+
 echo "<br>";
 echo "<br>";
 
