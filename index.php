@@ -9,7 +9,7 @@
 <div class="container">
   
 <div class="row">
-  <div class="col-sm-12 col-lg-12">
+  <div class="col-sm-12 ">
       <h2 class="parTitle">Men Offers</h2>
   </div>
 </div>    
@@ -27,7 +27,7 @@
             $image         = $row['image'];
             $price         = $row['price'];
   
-  echo "<div class='col-sm-4 col-lg-4'>";
+  echo "<div class='col-sm-4'>";
   
   // -- Start Panel --
   echo  "<div class='panel panel-success'>";
@@ -52,7 +52,7 @@ echo "<br>";
 ?>
 <!--   Women  container -->
   <div class="row">
-  <div class="col-sm-12 col-lg-12">
+  <div class="col-sm-12">
       <h2 class="parTitle">Women Offers</h2>
   </div>
 </div>
@@ -69,7 +69,7 @@ echo "<br>";
             $skirt_image      = $row['skirt_image'];
             $skirt_price      = $row['skirt_price'];
   
-  echo "<div class='col-sm-4 col-lg-4'>";
+  echo "<div class='col-sm-4'>";
 
   // --- Panel Start ---
   echo  "<div class='panel panel-success'>";
@@ -112,7 +112,7 @@ echo "<br>";
             $bag_image      = $row['bag_image'];
             $bag_price      = $row['bag_price'];
   
-  echo "<div class='col-sm-4 col-lg-4'>";
+  echo "<div class='col-sm-4'>";
 
   //   -- Start Panel --
   echo  "<div class='panel panel-success'>";
