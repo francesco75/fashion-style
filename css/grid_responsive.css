@@ -1,18 +1,19 @@
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) { 
               .container {
-                            width:100%; margin:0 auto;
+                            /*width:1170px; */
+                            margin:0 auto;
 
   }
 
-     
+    
  }
 
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {
         
              .container {
-                             width:100%; 
+                             width:1170px; 
                              margin:0 auto;
   }
 
