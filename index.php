@@ -5,9 +5,9 @@
   <?php include 'includes/carousel.php'?>
             <!-- Navigation -->
     <?php include 'includes/navigation.php'?>
-  
+ <div class="container-fluid full-width"> 
 <div class="container">
- <div class="container-fluid full-width">
+ 
  
 <div class="row">
   <div class="col-sm-12">
