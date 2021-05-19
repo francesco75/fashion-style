@@ -126,8 +126,7 @@ echo "<br>";
   echo "</div></a>";
   echo "</div>";
   echo "<div class='panel-footer'>";
-  echo "<div class='cont_price'>£". $bag_price;
-  echo "</div>";
+  echo "£". $bag_price;
   echo "</div>";
   echo "</div>";
   // -- End Panel --
