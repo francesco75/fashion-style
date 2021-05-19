@@ -1,24 +1,19 @@
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) { 
-              .full-width {
-    width: 100vw;
-    position: relative;
-    margin-left: -50vw;
-    left: 50%;
-                         }
-
+       .container{
+       	           padding-right: 0px;
+                   padding-left: 0px;
+       }
     
  }
 
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {
         
-   .full-width {
-    width: 100vw;
-    position: relative;
-    margin-left: -50vw;
-    left: 50%;
-              }
-
+               .container{
+       	           padding-right: 0px;
+                   padding-left: 0px;
+                         }
+    
 
 }
