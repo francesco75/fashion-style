@@ -18,8 +18,8 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="./css/product_style.css">
 <link rel="stylesheet" href="./css/social_button.css">
-<!-- <link rel="stylesheet" href="./css/grid_responsive.css">
- --><script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<link rel="stylesheet" href="./css/grid_responsive.css">
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
 
 
 </head>

@@ -126,7 +126,8 @@ echo "<br>";
   echo "</div></a>";
   echo "</div>";
   echo "<div class='panel-footer'>";
-  echo "£". $bag_price;
+  echo "<div class='cont_price'>£". $bag_price;
+  echo "</div>";
   echo "</div>";
   echo "</div>";
   // -- End Panel --
@@ -142,8 +143,3 @@ echo "<br>";
 ?>
 
 <?php include 'includes/footer_index.php'?>
-<script>
-  if($(window).width()>1200){
-      $("div.container")addClass("container-fluid");
-  }
-</script>

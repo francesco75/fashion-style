@@ -1,19 +1,16 @@
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) { 
-       .container{
-       	           padding-right: 0px;
-                   padding-left: 0px;
+       .cont_price{
+       	            font-size: 25px;
        }
     
  }
 
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {
-        
-               .container{
-       	           padding-right: 0px;
-                   padding-left: 0px;
-                         }
-    
+         .cont_price{
+       	            font-size: 25px;
+       }
+               
 
 }
