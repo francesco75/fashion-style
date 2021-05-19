@@ -142,3 +142,8 @@ echo "<br>";
 ?>
 
 <?php include 'includes/footer_index.php'?>
+<script>
+  if($(window).width()>1200){
+      $("div.container")addClass("container-fluid");
+  }
+</script>
