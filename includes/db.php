@@ -12,8 +12,8 @@ $query_builder = TRUE;
 // Connect to DB
 $connection = mysqli_connect($cleardb_server, $cleardb_username, $cleardb_password, $cleardb_db);
 
-
-/*$db['db_host']="localhost";
+/*
+$db['db_host']="localhost";
 $db['db_user']="root";
 $db['db_pass']="";
 $db['db_name']="shop";
