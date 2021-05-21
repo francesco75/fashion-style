@@ -39,5 +39,5 @@ _ Create the button select the price min and max in the page
        _ Deployment with GitHub
        - Create the Readme.MD
        _ Deployment with Readme.MD
-       _ Check the responsive all the pages    
+       _ Check the responsive all the pages - Done    
             
