@@ -127,8 +127,8 @@ There are  two charts one for each product's reviews and another chart for the o
       and Mobile checking almost the pages.
    - Index
          -
-           Performance : 64%;
-           Structure: 86%
+          Performance : 64%;
+          Structure: 86%
        
    - Pants Men
        -
