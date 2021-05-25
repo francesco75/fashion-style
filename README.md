@@ -95,16 +95,16 @@ There are  two charts one for each product's reviews and another chart for the o
      I have the good responsive and the tables respond very well.
      I fixed the responsive tables and chart for each page. 
 
--Ipad
+- Ipad
     I have the good responsive and the tables respond very well.
     I fixed the responsive tables and chart for each page.
     Payment.php : I fixed the class h1 to have more responsive for ipad mini 4, ipad 10, ipad pro 9,ipad pro 10 instead I left the standard h1 for
                     Ipad pro 12 .
--Laptop- Small Screen
+- Laptop- Small Screen
       All the pages have the good responsive.
--Extra large Screen
+- Extra large Screen
       All the pages have the good responsive
--Iphone Landscape - Android Landscape 
+- Iphone Landscape - Android Landscape 
       All the pages have the good responsive.
       Product.php I fixed the reviews chart. 
 
@@ -112,13 +112,13 @@ There are  two charts one for each product's reviews and another chart for the o
   - Test Card Details
       - To test the payment process, you need test card details. Use any of the following test card numbers, a valid future expiration date, and any random CVC number, 
          to test Stripe payment gateway integration in PHP.
-       -
-      4242424242424242 – Visa 
-      4000056655665556 – Visa (debit)
-      5555555555554444 – Mastercard
-      5200828282828210 – Mastercard (debit)
-      378282246310005 – American Express
-      6011111111111117 – Discover
+       
+      - 4242424242424242 – Visa 
+      - 4000056655665556 – Visa (debit)
+      - 5555555555554444 – Mastercard
+      - 5200828282828210 – Mastercard (debit)
+      - 378282246310005 – American Express
+      - 6011111111111117 – Discover
  
  ## Testing Speed Pages               
  ### PageSpeed Tools: GTmetrix
@@ -180,16 +180,16 @@ There are  two charts one for each product's reviews and another chart for the o
             -
              Performance : 86%;
              Structure: 90%;
-      -Registration
+       - Registration
              -
              Performance : 89%;
              Structure: 92%;
-      -Login
+       - Login
            -
              Performance : 89%;
              Structure: 92%;
 
-      - Product
+       - Product
             -
              Performance : 85%;
              Structure: 89%;
