@@ -35,7 +35,7 @@ There are  two charts one for each product's reviews and another chart for the o
     Provides the chart with oders and refunds and the table payment. 
 
 ## Small Feature
-    - Box Social
+  - Box Social
         Box with social media links. Unable for the small screen and  enable for ipad  large and medium screen.      
 ### Tech Used
 - PHP
@@ -109,9 +109,10 @@ There are  two charts one for each product's reviews and another chart for the o
       Product.php I fixed the reviews chart. 
 
  ## Testing STRIPE
-    -Test Card Details
-      To test the payment process, you need test card details. Use any of the following test card numbers, a valid future expiration date, and any random CVC number, to test Stripe payment gateway integration in PHP.
-
+  - Test Card Details
+      - To test the payment process, you need test card details. Use any of the following test card numbers, a valid future expiration date, and any random CVC number, 
+         to test Stripe payment gateway integration in PHP.
+       -
       4242424242424242 – Visa 
       4000056655665556 – Visa (debit)
       5555555555554444 – Mastercard
@@ -125,69 +126,86 @@ There are  two charts one for each product's reviews and another chart for the o
    - This Testing tests the speed pages and optimization betweeen the Desktop
       and Mobile checking almost the pages.
    - Index
+         -
            Performance : 64%;
            Structure: 86%
        
    - Pants Men
+       -
         Performance : 85%;
         Structure: 92%;
    - Shirts Men
+       -
         Performance : 87%;
         Structure: 87%;
-   - Jackets Men                            
+   - Jackets Men
+        -                            
         Performance : 86%;
         Structure: 86%
-   - Women Pant 
+   - Women Pant
+        - 
         Performance : 85%;
         Structure: 88%; 
    - Women Shitrs
+        -
         Performance : 86%;
         Structure: 89%;
    - Women Jacket
+       -
         Performance : 87%;
         Structure: 87%;
 
    - Skirts
+       -
         Performance : 86%;
         Structure: 96%;
    - Accessories
        - Men Glasses 
+            -
              Performance : 84%;
              Structure: 91%;   
        - Men hat 
+            -
              Performance : 85%;
              Structure: 87%;
        - Women Glasses
+            -
              Performance : 87%;
              Structure: 91%;
        - Women Hat
+            -
              Performance : 8%;
              Structure: 88%;
        - Bags
+            -
              Performance : 86%;
              Structure: 90%;
       -Registration
+             -
              Performance : 89%;
              Structure: 92%;
       -Login
+           -
              Performance : 89%;
              Structure: 92%;
 
       - Product
+            -
              Performance : 85%;
              Structure: 89%;
        - Order
+            -
              Performance : 88%;
              Structure: 91%;
         - Edit
+             -
              Performance : 86%;
              Structure: 93%;
         - Checkout
+             -
              Performance : 89%;
              Structure: 91%;
-        - Last Order
-             Performance : 89%;
-             Structure: 91%; 
+         
 
                        
 ### Deployment
