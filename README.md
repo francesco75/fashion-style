@@ -159,7 +159,7 @@ There are  two charts one for each product's reviews and another chart for the o
        -
         Performance : 86%;
         Structure: 96%;
-   - Accessories
+   #### Accessories
        - Men Glasses 
             -
              Performance : 84%;
