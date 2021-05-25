@@ -123,7 +123,7 @@ There are  two charts one for each product's reviews and another chart for the o
  ## Testing Speed Pages               
  ### PageSpeed Tools: GTmetrix
 
-  #### This Testing tests the speed pages and optimization betweeen the Desktop and Mobile checking almost the pages
+  ### This Testing tests the speed pages and optimization betweeen the Desktop and Mobile checking almost the pages
 
    - Index
          -
@@ -159,7 +159,7 @@ There are  two charts one for each product's reviews and another chart for the o
        -
         Performance : 86%;
         Structure: 96%;
-  #### Accessories
+  ### Accessories
        - Men Glasses 
             -
              Performance : 84%;
