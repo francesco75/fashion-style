@@ -199,12 +199,12 @@ There are  two charts one for each product's reviews and another chart for the o
              Structure: 91%;
         - Edit
              -
-             Performance : 86%;
-             Structure: 93%;
+              Performance : 86%;
+              Structure: 93%;
         - Checkout
              -
-             Performance : 89%;
-             Structure: 91%;
+              Performance : 89%;
+              Structure: 91%;
          
 
                        
