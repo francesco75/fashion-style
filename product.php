@@ -316,7 +316,7 @@
 
                      
             ?>
-             <input class='btn btn-success' type='submit' name='create_order' value='Add Chart'>
+             <input class='btn btn-success' type='submit' name='create_order' value='Add Cart'>
       </form>         
     <?php endif;?>
     </div>

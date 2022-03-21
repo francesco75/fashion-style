@@ -59,7 +59,7 @@ else
                         <h6 class="text-center"><?php echo $message; ?></h6>
                         <div class="form-group">
                             <label for="username" class="sr-only">username</label>
-                            <input type="text" name="username" id="username" class="form-control" placeholder="Enter Desired Username"
+                            <input type="text" name="username" id="username" class="form-control" placeholder="Enter  Username"
                              autocomplete="on"
                              value="<?php echo isset($username) ? $username : '' ?>" >
 
