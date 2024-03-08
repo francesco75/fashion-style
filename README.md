@@ -208,12 +208,12 @@ There are  two charts one for each product's reviews and another chart for the o
       - Medium Commit:  Add the last changes
       - Final commit: The code with the last changes
       - Final : Add the Readme.md     
-  - Heroku
-      - Add all the files and composer.json
-      - Create ClearDB MySql - Ignite Free-
-      - Transfer user  password database from ClearDB MySql   on my server and add 
-          my config.php on my localhost phpMyAdmin.
-      - Change my db.php with all the user password and dbClear. 
+  - OOOWebHost
+      - Update all the files 
+      - Create  MySql Database- Dashboard OOOwebhost Platform-
+      - Transfer user  password database from MySql   on my server and add 
+          my config.php on my OOOWebHost PLatform.
+       
       - Final Deployment.  
 ### Demo
-   - [https://fashion-shop-online.herokuapp.com/](https://fashion-shop-online.herokuapp.com/)
+   - [https://deciduous-visions.000webhostapp.com/](https://deciduous-visions.000webhostapp.com/)

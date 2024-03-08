@@ -35,7 +35,7 @@ return mysqli_real_escape_string($connection,trim($sting));
 function confirmQuery($result){
   global $connection;
   if (!$result){
-    die("Query Failed .". mysqli_error($connection));
+     die("Query Failed .". mysqli_error($connection));
   }
 }
        // Check login with only one username
@@ -74,11 +74,16 @@ function register_user($username, $email, $password){
         $password = mysqli_real_escape_string($connection, $password);
 
         $password = password_hash( $password, PASSWORD_BCRYPT, array('cost' => 12));
-            
+        
+        /*$stmt = $connection->prepare("INSERT INTO users (username, user_password, user_email) VALUES (?, ?, ?)");
+        $stmt->bind_param("sss", $username, $password, $email);
+        $stmt->execute();*/    
             
         $query = "INSERT INTO users (username, user_email, user_password) ";
         $query .= "VALUES('{$username}','{$email}', '{$password}' )";
         $register_user_query = mysqli_query($connection, $query);
+        
+
         confirmQuery($register_user_query);
 
 }

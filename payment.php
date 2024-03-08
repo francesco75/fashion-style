@@ -58,7 +58,8 @@
         <span> / </span>
         <input type="text" name="exp_year" placeholder="Year" size="4" class="card-expiry-year"/>
          </div>
-    <input  type="submit" id="payBtn" value="Submit Payment">
+    <input  type="submit" id="p
+    ayBtn" value="Submit Payment">
 </form>
          </div>
      	</div>
